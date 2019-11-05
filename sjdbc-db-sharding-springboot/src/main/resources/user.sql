@@ -1,4 +1,8 @@
+DROP DATABASE IF EXISTS `ds_0`;
+
 CREATE DATABASE `ds_0` CHARACTER SET 'utf8' COLLATE 'utf8_general_ci';
+
+use `ds_0`;
 
 CREATE TABLE `user`(
 	id bigint(64) not null,

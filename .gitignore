@@ -13,6 +13,7 @@ target/
 
 # idea ignore
 .idea/
+.vscode/
 *.ipr
 *.iml
 *.iws

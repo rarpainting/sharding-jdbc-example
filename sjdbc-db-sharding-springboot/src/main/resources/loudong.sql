@@ -1,4 +1,6 @@
+DROP DATABASE IF EXISTS `ds_1`;
 CREATE DATABASE `ds_1` CHARACTER SET 'utf8' COLLATE 'utf8_general_ci';
+use `ds_1`;
 
 CREATE TABLE `loudong` (
   `id` varchar(20) NOT NULL,
@@ -8,4 +10,4 @@ CREATE TABLE `loudong` (
   `ld_num` varchar(10) NOT NULL,
   `unit_num` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
