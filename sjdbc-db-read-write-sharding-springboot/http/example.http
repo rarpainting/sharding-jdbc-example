@@ -1,0 +1,19 @@
+@url=http://localhost:8084
+
+###
+
+GET {{url}}/lds HTTP/1.1
+
+###
+
+GET {{url}}/ld/add HTTP/1.1
+
+###
+
+GET {{url}}/users HTTP/1.1
+
+###
+
+GET {{url}}/add HTTP/1.1
+
+###

@@ -7,23 +7,23 @@ package com.cxytiandi.sharding.po;
  */
 public class LouDong {
 
-	private String id;
-	
+	private Long id;
+
 	private String city;
-	
+
 	private String region;
-	
+
 	private String name;
-	
+
 	private String ldNum;
-	
+
 	private String unitNum;
 
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -66,5 +66,5 @@ public class LouDong {
 	public void setUnitNum(String unitNum) {
 		this.unitNum = unitNum;
 	}
-	
+
 }

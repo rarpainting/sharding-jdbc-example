@@ -12,20 +12,20 @@ import com.cxytiandi.sharding.service.UserService;
 
 @RestController
 public class LouDongController {
-	
+
 	@Autowired
 	private LouDongService louDongService;
-	
+
 	@GetMapping("/lds")
 	public Object list() {
 		return louDongService.list();
 	}
-	
+
 	@GetMapping("/ld/add")
 	public Object add() {
 		for (long i = 0; i < 10; i++) {
 			LouDong louDong = new LouDong();
-			louDong.setId(i+"a");
+			louDong.setId(i);
 			louDong.setCity("深圳");
 			louDong.setRegion("宝安");
 			louDong.setName("李四");
@@ -35,5 +35,5 @@ public class LouDongController {
 		}
 		return "success";
 	}
-	
+
 }
